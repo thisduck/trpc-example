@@ -8,7 +8,7 @@ const app = express();
 const appRouter = trpc
   .router()
   .query("getUser", {
-    input: z.string(),
+    input: z.object({ id: z.string() }),
     async resolve(req) {
       req.input; // string
       return { id: req.input, name: "Bilbo" };
@@ -16,7 +16,7 @@ const appRouter = trpc
   })
   .mutation("createUser", {
     // validate input with Zod
-    input: z.object({ name: z.string().min(5) }),
+    input: z.object({ firstName: z.string().min(5) }),
     async resolve(req) {
       return { id: req.input, name: "Frodo" };
     },
