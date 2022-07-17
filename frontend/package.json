@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@trpc/client": "^9.26.0",
+    "@trpc/server": "^9.26.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {

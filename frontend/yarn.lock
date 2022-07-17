@@ -21,6 +21,11 @@
   dependencies:
     "@babel/runtime" "^7.9.0"
 
+"@trpc/server@^9.26.0":
+  version "9.26.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-9.26.0.tgz#dcd330c0f337bcf18a60dfb8c82a764f4b8ddfc9"
+  integrity sha512-aQgGkcAln9leq/Ab5X5AOWci0BNiy4oGcEqXCWs5Q7sZ1gd5Y3OzQV5tnY6fPsWSRjuvkb45Syq2AkFpX0q0/w==
+
 "@vitejs/plugin-vue@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-3.0.0.tgz#7081e2b3fbe04e291bb85107b9fb57a1fa5e6aeb"
